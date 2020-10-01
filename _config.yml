@@ -3,3 +3,4 @@ url: "ijayasurya.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
   - amp-jekyll
+  - jekyll-feed
