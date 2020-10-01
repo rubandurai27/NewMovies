@@ -1,4 +1,7 @@
 ## Welcome to GitHub Pages
+{% if page.path contains '_posts' %}
+  <link rel="amphtml" href="{{ page.id | prepend: '/YOURDIR' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+{% endif %}
 
 Yxxxxou can use the [editor on GitHub](https://github.com/ijayasurya/ijayasurya.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
